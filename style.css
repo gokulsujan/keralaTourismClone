@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2{
+    font-weight: 500;
+}
+
+header{
+    background-color: #003973;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img{
+    width: 150px;
+}
+
+header .header_nav{
+    display: flex;
+    flex-direction: column;
+}
+
+header .header_nav  .header_content_1{
+    display: flex;
+    justify-content: end;
+}
+
+header .header_nav  .header_content_1 div{
+    margin: 10px;
+}
+
+header .header_nav .header_content_1 .social_media i{
+    border-radius: 100%;
+    padding: 8px;
+}
+
+header .header_nav .header_content_1 .social_media i:first-child{
+    background-color: #FF0000;
+}
+
+header .header_nav .header_content_1 .social_media i:nth-child(2){
+    background-color: #4267B2;
+}
+
+header .header_nav .header_content_1 .social_media i:nth-child(3){
+    background-color: #1DA1F2;
+}
+
+header .header_nav .header_content_1 .social_media i:nth-child(4){
+    background-color: #FCAF45;
+}
+
+header .header_nav .header_content_1 .social_media i:nth-child(5){
+    background-color: #25D366;
+}
+
+header .header_nav .header_content_1 .social_media i:nth-child(6){
+    background-color: #E60023;
+}
+
+header .header_nav .header_content_1 .social_media i:last-child{
+    background-color: #0072b1;
+}
+
+header .header_nav .header_content_1 .visitor_count{
+    display: flex;
+}
+
+header .header_nav .header_content_1 .visitor_count p:first-child{
+    margin-right: 10px;
+}
+
+header .header_nav .header_content_1 .visitor_count p{
+    font-size: 12px;
+}
+
+header .header_nav .header_content_1 .visitor_count p span{
+    font-size: 15px;
+}
+
+header .header_nav .header_content_1 .language{
+    display: flex;
+}
+
+header .header_nav .header_content_1 .language p{
+    padding: 2px;
+}
+
+header .header_nav .header_content_1 .language p:first-child{
+    background-color: #09C;
+    
+}
+
+header .header_nav .header_content_1 .language p:last-child{
+    background-color: black;
+}
+
+header .header_nav .header_content_2{
+    display: flex;
+    justify-content: end;
+}
+
+header .header_nav .header_content_2 i{
+    font-size: 30px;
+    display: none;
+}
+
+header .header_nav .header_content_2 p{
+    margin: 10px;
+}
+
+.navbar_responsive{
+    width: 100%;
+    padding-top: 120px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #003973;
+    color: white;
+    visibility: hidden;
+}
+
+.navbar_responsive .nav_resp_col{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-1{
+    z-index: 0;
+}
+
+.section_2{
+    display: flex;
+    flex-direction: column;
+    padding: 70px 10px;
+}
+
+.section_2 .section_2_body .carousel-inner{
+    padding: 1em;
+}
+
+.section_2 .section_2_body .cards-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.section_2 .section_2_body .cards-wrapper .cards{
+    width: 320px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    margin: 0.5em
+}
+
+.section_2 .section_2_body .cards-wrapper .cards .card_bgm img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section_2 .section_2_body .cards-wrapper .cards .card_body{
+    width: 100%;
+    height: 96%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 50px;
+}
+
+.section_2 .section_2_body .cards-wrapper .cards .card_body:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.section_2 .section_2_body .cards-wrapper .cards .card_body:hover p{
+    display: block;
+}
+
+.section_2 .section_2_body .cards-wrapper .cards .card_body p{
+    display: none;
+}
+
+.section_3,.section_6, .section_8, .section_9 .accomodation_search, .section_11{
+    background-color: #e3e7f1;
+}
+
+.section_4{
+    background-image: url("https://www.keralatourism.org/images/kt//bg/sky-1.jpg");
+}
+
+.section_4 .section_4_heading{
+    color: #fff;
+}
+
+.section_7 {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.section_7 video{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section_7 .overlay-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section_7 h1{
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.section_8 .tour_packages_card{
+    overflow: hidden;
+}
+
+.section_8 img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section_8 .card_head{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.section_8 .card_subhead{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.section_8 .card_bottom{
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.section_9 .section_9_body .icon-wrapper {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .section_9 .section_9_body .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .section_9 .section_9_body .icon i{
+    background-color: #003973;
+    color: white;
+    border-radius: 100%;
+    padding: 20px;
+  }
+
+  .section_9 .section_9_body .icon i:hover{
+    background-color: #0072b1;
+  }
+  
+  .section_9 .section_9_body .icon-name {
+    font-size: 14px;
+  }
+
+  .section_10 .section_10_body .icon-wrapper {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .section_10 .section_10_body .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .section_10 .section_10_body .icon i{
+    color: white;
+    border-radius: 100%;
+    padding: 20px;
+  }
+
+.footer_botton{
+    background-color: #003366;
+    color: white;
+    width: 20vw;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1265px){
+    header .header_nav .header_content_1 .social_media{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1245px){
+    header .header_nav .header_content_2 p{
+        display: none;
+    }
+
+    header .header_nav .header_content_2 i:last-child{
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    header .header_nav .header_content_1{
+        font-size: 10px;
+    }
+
+    header .header_nav .header_content_1 .visitor_count, .language{
+        display: none;
+    }
+
+    header .header_nav .header_content_1 div{
+        margin-right: 3px;
+    }
+
+    .icon-wrapper {
+        width: 100%;
+      }
+
+}
+
+@media only screen and (min-width: 600px){
+    .section_2 .section_2_body .carousel-inner{
+        display: flex;
+    }
+}
